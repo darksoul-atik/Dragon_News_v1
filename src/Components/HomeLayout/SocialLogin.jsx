@@ -19,7 +19,8 @@ const SocialLogin = () => {
         <div className="bg-gray-100 px-6 py-5 rounded-xl shadow-md mb-6">
           <p className="text-sm md:text-xl font-light">
             Welcome to <span className="font-semibold">Dragon News</span>,
-            <span className="font-bold ml-1">
+            <br />
+            <span className="font-bold text-secondary ml-1">
               {user?.email || user?.displayName || "Guest"}
             </span>
             !
